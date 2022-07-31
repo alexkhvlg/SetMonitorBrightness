@@ -55,6 +55,7 @@ namespace SetMonitorBrightness
         {
             Set(0);
             ShowInTaskbar = false;
+            Hide();
         }
 
         private void showToolStripMenuItem_Click(object sender, EventArgs e)
